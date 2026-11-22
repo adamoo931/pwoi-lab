@@ -1,7 +1,3 @@
-"""Ćwiczenie 2, zadania 2-5 – segmentacja k-średnich + RANSAC na chmurze z ćwiczenia 1.
-
-Uruchomienie:  python lab2_synthetic.py   (wymaga ../lab1/results/scene_3_surfaces.xyz)
-"""
 import json
 import random
 from pathlib import Path

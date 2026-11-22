@@ -1,10 +1,3 @@
-"""Ćwiczenie 3, krok 2 – wycinanie próbek tekstury (fragmentów obrazu) o zadanym rozmiarze.
-
-Funkcja cut_patches wczytuje obraz, skaluje go do zadanego rozmiaru (parametr image_size),
-a następnie tnie siatką na fragmenty patch_size x patch_size i zapisuje je w katalogu kategorii.
-
-Uruchomienie:  python cut_patches.py [--image-size 512] [--patch-size 64] [--stride 64]
-"""
 import argparse
 from pathlib import Path
 

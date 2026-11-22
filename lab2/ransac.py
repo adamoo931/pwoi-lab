@@ -1,14 +1,3 @@
-"""Ćwiczenie 2 – RANSAC (Random Sample Consensus) dla płaszczyzny w przestrzeni 3D.
-
-Algorytm (wg https://en.wikipedia.org/wiki/Random_sample_consensus):
-  1. Wylosuj minimalny podzbiór danych (dla płaszczyzny – 3 niewspółliniowe punkty).
-  2. Wyznacz model (płaszczyznę n·x + d = 0, |n| = 1) z tego podzbioru.
-  3. Policz punkty zgodne z modelem (inliery) – odległość punktu od płaszczyzny < próg.
-  4. Zapamiętaj model z największą liczbą inlierów.
-  5. Powtarzaj kroki 1-4 (liczba iteracji ograniczona z góry i adaptacyjnie zmniejszana).
-  6. (usprawnienie) dopasuj płaszczyznę metodą najmniejszych kwadratów do inlierów
-     najlepszego modelu i ponownie wyznacz inliery.
-"""
 import csv
 
 import numpy as np

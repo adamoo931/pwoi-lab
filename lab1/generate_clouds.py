@@ -1,13 +1,3 @@
-"""Ćwiczenie 1 – generowanie chmur punktów, zapis do .xyz i wizualizacja.
-
-Uruchomienie:  python generate_clouds.py
-Wynik:
-    results/horizontal_plane.xyz, results/vertical_plane.xyz, results/cylinder.xyz
-    results/scene_3_surfaces.xyz  – trzy powierzchnie w jednym pliku (dane wejściowe do ćw. 2)
-    results/lab1_stats.json       – statystyki kontrolne
-    figures/*.png                 – wizualizacje (Matplotlib)
-Pliki .xyz można wczytać w programie CloudCompare (File -> Open).
-"""
 import json
 from pathlib import Path
 

@@ -1,11 +1,3 @@
-"""Ćwiczenie 3, krok 1 – obrazy tekstur do odrębnych katalogów (jedna kategoria = jeden katalog).
-
-Uwaga: autor nie dysponował własnymi zdjęciami powierzchni, dlatego jako obrazy zastępcze użyto
-trzech rzeczywistych zdjęć tekstur dostarczanych z pakietem scikit-image (licencja CC0):
-    cegla – mur z cegły, trawa – trawnik, zwir – żwir (każde 512 x 512 px, skala szarości).
-Aby użyć własnych zdjęć (gres, tynk, laminat...), wystarczy umieścić je w katalogach
-textures/<nazwa_kategorii>/*.jpg i pominąć ten skrypt.
-"""
 from pathlib import Path
 
 from skimage import data, io

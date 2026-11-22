@@ -1,12 +1,3 @@
-"""Ćwiczenie 3, kroki 3-4 – cechy tekstury z macierzy zdarzeń (GLCM) i zapis do CSV.
-
-Dla każdej próbki: skala szarości -> redukcja głębi jasności do 64 poziomów -> GLCM
-(odległości 1, 3, 5 px; kierunki 0°, 45°, 90°, 135°; symetryczna, znormalizowana)
--> 6 cech x 3 odległości x 4 kierunki = 72 cechy + nazwa kategorii.
-
-Wynik: results/texture_features.csv (72 kolumny cech + kolumna 'category')
-       results/texture_features_meta.csv (nazwa pliku próbki w tej samej kolejności)
-"""
 from pathlib import Path
 
 import numpy as np

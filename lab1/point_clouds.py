@@ -1,11 +1,3 @@
-"""Ćwiczenie 1 – generatory chmur punktów w przestrzeni 3D.
-
-Przyjęta orientacja układu odniesienia (zgodnie z instrukcją):
-    X – w prawo, Y – w głąb sceny, Z – w górę (układ prawoskrętny).
-
-Każda funkcja zwraca tablicę numpy o kształcie (n_points, 3) z kolumnami x, y, z.
-Opcjonalny szum gaussowski (noise_std) symuluje błąd pomiarowy skanera.
-"""
 import numpy as np
 
 

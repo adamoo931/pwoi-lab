@@ -1,8 +1,3 @@
-"""Ćwiczenie 2, opcja 2 – rysunki do sprawozdania (Matplotlib), na podstawie plików z lab2_s3dis.py.
-
-Wczytuje results/s3dis/plane_k.xyz, remaining.xyz oraz results/lab2_s3dis_results.json.
-W CloudCompare te same pliki otwieramy poleceniem File -> Open.
-"""
 import json
 from pathlib import Path
 

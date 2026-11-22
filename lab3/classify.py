@@ -1,9 +1,3 @@
-"""Ćwiczenie 3, krok 5 – klasyfikacja wektorów cech tekstury (scikit-learn).
-
-Zbiór dzielimy losowo (z zachowaniem proporcji klas) na treningowy (70%) i testowy (30%).
-Głównym klasyfikatorem jest SVM (jądro RBF); dla porównania: k-NN oraz SVM bez standaryzacji cech.
-Wynik: dokładność na zbiorze testowym, macierz pomyłek, walidacja krzyżowa 5-krotna.
-"""
 import json
 from pathlib import Path
 

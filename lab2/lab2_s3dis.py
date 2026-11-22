@@ -1,13 +1,3 @@
-"""Ćwiczenie 2, opcja 2 – iteracyjne dopasowanie płaszczyzn do chmury conferenceRoom_1 (S3DIS).
-
-Procedura: K = 6 razy -> RANSAC na punktach pozostałych w chmurze -> zapamiętanie inlierów
-(punktów płaszczyznowych) -> usunięcie ich z chmury wejściowej przed kolejną iteracją.
-
-Uruchomienie:  python lab2_s3dis.py [ścieżka/do/conferenceRoom_1.txt]   (domyślnie: lab2/conferenceRoom_1.txt)
-Wynik: results/s3dis/plane_k.xyz (x y z r g b – oryginalne kolory), results/s3dis/remaining.xyz,
-       results/lab2_s3dis_results.json (rysunki: lab2_s3dis_figures.py)
-Pliki .xyz otwieramy w CloudCompare (File -> Open, kolumny: X Y Z R G B).
-"""
 import json
 import random
 import sys
