@@ -1,0 +1,350 @@
+{
+  "source": "conferenceRoom_1.txt",
+  "n_points": 1136617,
+  "K": 6,
+  "threshold": 0.02,
+  "max_iterations": 1000,
+  "seed": 0,
+  "planes": [
+    {
+      "k": 1,
+      "n_points": 205105,
+      "share_percent": 18.05,
+      "normal": [
+        -0.004,
+        0.0043,
+        1.0
+      ],
+      "d": -3.414,
+      "orientation": "pozioma",
+      "centroid": [
+        -18.2098,
+        38.9721,
+        3.1738
+      ],
+      "angle_to_Z_deg": 0.34,
+      "dominant_axis": "Z",
+      "position": 3.174,
+      "rms_residual_m": 0.0079,
+      "bbox_min": [
+        -20.538,
+        36.802,
+        3.136
+      ],
+      "bbox_max": [
+        -15.752,
+        41.255,
+        3.204
+      ],
+      "ransac_iterations": 1000,
+      "time_s": 4.0,
+      "label": "sufit"
+    },
+    {
+      "k": 2,
+      "n_points": 180807,
+      "share_percent": 15.91,
+      "normal": [
+        -0.0027,
+        0.006,
+        1.0
+      ],
+      "d": -0.3477,
+      "orientation": "pozioma",
+      "centroid": [
+        -17.9568,
+        38.9758,
+        0.0647
+      ],
+      "angle_to_Z_deg": 0.38,
+      "dominant_axis": "Z",
+      "position": 0.065,
+      "rms_residual_m": 0.0064,
+      "bbox_min": [
+        -20.496,
+        36.808,
+        0.032
+      ],
+      "bbox_max": [
+        -15.208,
+        41.253,
+        0.103
+      ],
+      "ransac_iterations": 1000,
+      "time_s": 3.1,
+      "label": "podłoga"
+    },
+    {
+      "k": 3,
+      "n_points": 133928,
+      "share_percent": 11.78,
+      "normal": [
+        0.0024,
+        0.9999,
+        0.0115
+      ],
+      "d": -36.8054,
+      "orientation": "pionowa",
+      "centroid": [
+        -17.9305,
+        36.8315,
+        1.7448
+      ],
+      "angle_to_Z_deg": 89.34,
+      "dominant_axis": "Y",
+      "position": 36.832,
+      "rms_residual_m": 0.0089,
+      "bbox_min": [
+        -20.513,
+        36.803,
+        0.055
+      ],
+      "bbox_max": [
+        -15.307,
+        36.875,
+        3.169
+      ],
+      "ransac_iterations": 1000,
+      "time_s": 2.46,
+      "label": "ściana Y = 36.83 m"
+    },
+    {
+      "k": 4,
+      "n_points": 118077,
+      "share_percent": 10.39,
+      "normal": [
+        -0.0031,
+        -0.9998,
+        0.0202
+      ],
+      "d": 41.1277,
+      "orientation": "pionowa",
+      "centroid": [
+        -17.7822,
+        41.2285,
+        1.8661
+      ],
+      "angle_to_Z_deg": 88.84,
+      "dominant_axis": "Y",
+      "position": 41.229,
+      "rms_residual_m": 0.0088,
+      "bbox_min": [
+        -20.519,
+        41.172,
+        0.066
+      ],
+      "bbox_max": [
+        -15.291,
+        41.262,
+        3.149
+      ],
+      "ransac_iterations": 985,
+      "time_s": 2.17,
+      "label": "ściana Y = 41.23 m"
+    },
+    {
+      "k": 5,
+      "n_points": 84706,
+      "share_percent": 7.45,
+      "normal": [
+        0.9996,
+        0.0039,
+        0.0263
+      ],
+      "d": 20.2869,
+      "orientation": "pionowa",
+      "centroid": [
+        -20.5008,
+        39.3206,
+        2.0516
+      ],
+      "angle_to_Z_deg": 88.49,
+      "dominant_axis": "X",
+      "position": -20.501,
+      "rms_residual_m": 0.0088,
+      "bbox_min": [
+        -20.542,
+        36.844,
+        0.069
+      ],
+      "bbox_max": [
+        -20.421,
+        41.248,
+        3.152
+      ],
+      "ransac_iterations": 1000,
+      "time_s": 1.83,
+      "label": "ściana X = -20.50 m"
+    },
+    {
+      "k": 6,
+      "n_points": 46924,
+      "share_percent": 4.13,
+      "normal": [
+        -0.9996,
+        -0.0,
+        0.0271
+      ],
+      "d": -15.8333,
+      "orientation": "pionowa",
+      "centroid": [
+        -15.7741,
+        38.9503,
+        2.4355
+      ],
+      "angle_to_Z_deg": 88.45,
+      "dominant_axis": "X",
+      "position": -15.774,
+      "rms_residual_m": 0.0063,
+      "bbox_min": [
+        -15.859,
+        36.809,
+        0.025
+      ],
+      "bbox_max": [
+        -15.752,
+        41.226,
+        3.172
+      ],
+      "ransac_iterations": 1000,
+      "time_s": 1.53,
+      "label": "ściana X = -15.77 m"
+    }
+  ],
+  "extracted": 769547,
+  "remaining": 367070,
+  "room_dims": {
+    "wysokosc_m": 3.109,
+    "odleglosc_scian_X_m": 4.727,
+    "odleglosc_scian_Y_m": 4.397,
+    "bbox_chmury_m": [
+      5.335,
+      4.481,
+      3.186
+    ]
+  },
+  "pyransac3d": [
+    {
+      "k": 1,
+      "pyransac3d_normal": [
+        0.0093,
+        -0.0014,
+        -1.0
+      ],
+      "pyransac3d_inliers": 185534,
+      "angle_between_normals_deg": 0.087,
+      "centroid_offset_mm": 4.69,
+      "time_s": 4.6
+    },
+    {
+      "k": 2,
+      "pyransac3d_normal": [
+        0.0027,
+        -0.0071,
+        -1.0
+      ],
+      "pyransac3d_inliers": 178901,
+      "angle_between_normals_deg": 0.0,
+      "centroid_offset_mm": 3.81,
+      "time_s": 3.71
+    },
+    {
+      "k": 3,
+      "pyransac3d_normal": [
+        -0.0032,
+        0.9998,
+        0.0183
+      ],
+      "pyransac3d_inliers": 116478,
+      "angle_between_normals_deg": 0.677,
+      "centroid_offset_mm": 2.42,
+      "time_s": 3.02
+    },
+    {
+      "k": 4,
+      "pyransac3d_normal": [
+        -0.0026,
+        -0.9999,
+        0.0115
+      ],
+      "pyransac3d_inliers": 101167,
+      "angle_between_normals_deg": 0.438,
+      "centroid_offset_mm": 11.65,
+      "time_s": 2.67
+    },
+    {
+      "k": 5,
+      "pyransac3d_normal": [
+        -0.9999,
+        0.0082,
+        -0.0139
+      ],
+      "pyransac3d_inliers": 78674,
+      "angle_between_normals_deg": 1.136,
+      "centroid_offset_mm": 0.96,
+      "time_s": 2.16
+    },
+    {
+      "k": 6,
+      "pyransac3d_normal": [
+        0.9997,
+        0.0044,
+        -0.0225
+      ],
+      "pyransac3d_inliers": 48117,
+      "angle_between_normals_deg": 0.59,
+      "centroid_offset_mm": 4.08,
+      "time_s": 1.92
+    }
+  ],
+  "threshold_sensitivity": [
+    {
+      "threshold": 0.01,
+      "counts": [
+        152589,
+        158103,
+        85535,
+        79986,
+        57017,
+        58014
+      ],
+      "extracted_percent": 52.0
+    },
+    {
+      "threshold": 0.02,
+      "counts": [
+        205105,
+        180807,
+        133928,
+        118077,
+        84706,
+        46924
+      ],
+      "extracted_percent": 67.7
+    },
+    {
+      "threshold": 0.03,
+      "counts": [
+        210835,
+        190442,
+        138957,
+        140456,
+        100611,
+        62735
+      ],
+      "extracted_percent": 74.3
+    },
+    {
+      "threshold": 0.05,
+      "counts": [
+        217291,
+        197476,
+        141915,
+        141668,
+        101931,
+        65872
+      ],
+      "extracted_percent": 76.2
+    }
+  ]
+}

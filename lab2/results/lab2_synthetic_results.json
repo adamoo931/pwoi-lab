@@ -1,0 +1,140 @@
+{
+  "threshold": 0.05,
+  "plane_mean_dist_tol": 0.05,
+  "kmeans_purity": 1.0,
+  "kmeans_centers": [
+    [
+      20.048,
+      -0.0,
+      4.945
+    ],
+    [
+      9.988,
+      20.013,
+      5.048
+    ],
+    [
+      -0.043,
+      -0.014,
+      0.0
+    ]
+  ],
+  "clusters": [
+    {
+      "cluster": 0,
+      "n_points": 5000,
+      "centroid": [
+        20.048,
+        -0.0,
+        4.945
+      ],
+      "normal": [
+        0.0001,
+        1.0,
+        0.0
+      ],
+      "d": -0.0015,
+      "n_inliers": 4942,
+      "inlier_ratio": 0.9884,
+      "mean_dist": 0.0157,
+      "is_plane": true,
+      "orientation": "pionowa",
+      "angle_to_Z_deg": 90.0,
+      "iterations": 100,
+      "truth": "pionowa"
+    },
+    {
+      "cluster": 1,
+      "n_points": 6000,
+      "centroid": [
+        9.988,
+        20.013,
+        5.048
+      ],
+      "normal": [
+        0.0445,
+        0.999,
+        0.0012
+      ],
+      "d": -23.4071,
+      "n_inliers": 437,
+      "inlier_ratio": 0.0728,
+      "mean_dist": 2.9646,
+      "is_plane": false,
+      "orientation": "—",
+      "angle_to_Z_deg": 89.93,
+      "iterations": 1000,
+      "truth": "walec"
+    },
+    {
+      "cluster": 2,
+      "n_points": 5000,
+      "centroid": [
+        -0.043,
+        -0.014,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        -0.0001,
+        1.0
+      ],
+      "d": -0.0006,
+      "n_inliers": 4940,
+      "inlier_ratio": 0.988,
+      "mean_dist": 0.0162,
+      "is_plane": true,
+      "orientation": "pozioma",
+      "angle_to_Z_deg": 0.0,
+      "iterations": 100,
+      "truth": "pozioma"
+    }
+  ],
+  "pyransac3d_planes": [
+    {
+      "cluster": 0,
+      "pyransac3d_normal": [
+        0.0001,
+        -1.0,
+        -0.0
+      ],
+      "pyransac3d_inliers": 4944,
+      "angle_between_normals_deg": 0.013
+    },
+    {
+      "cluster": 1,
+      "pyransac3d_normal": [
+        0.0218,
+        -0.9998,
+        0.0013
+      ],
+      "pyransac3d_inliers": 417,
+      "angle_between_normals_deg": 3.81
+    },
+    {
+      "cluster": 2,
+      "pyransac3d_normal": [
+        0.0005,
+        0.0006,
+        -1.0
+      ],
+      "pyransac3d_inliers": 4935,
+      "angle_between_normals_deg": 0.041
+    }
+  ],
+  "pyransac3d_cylinder": {
+    "center": [
+      9.994,
+      20.027,
+      6.688
+    ],
+    "axis": [
+      0.0118,
+      0.0014,
+      -0.9999
+    ],
+    "radius": 3.0098,
+    "n_inliers": 4645,
+    "n_points": 6000
+  }
+}

@@ -1,0 +1,24 @@
+Zbiór: 192 wektorów x 72 cech, klasy: ['cegla', 'trawa', 'zwir']
+Zbiór treningowy: 134, testowy: 58
+SVM (RBF) + standaryzacja          train 1.0000 | TEST 1.0000 | CV5 0.9949 ± 0.0103
+SVM (liniowy) + standaryzacja      train 1.0000 | TEST 1.0000 | CV5 0.9896 ± 0.0127
+k-NN (k=5) + standaryzacja         train 0.9701 | TEST 1.0000 | CV5 0.9792 ± 0.0104
+SVM (RBF) bez standaryzacji        train 0.9776 | TEST 1.0000 | CV5 0.9794 ± 0.0192
+
+Macierz pomyłek (wiersze: prawdziwe, kolumny: przewidziane), kolejność klas ['cegla', 'trawa', 'zwir'] 
+ [[19  0  0]
+ [ 0 19  0]
+ [ 0  0 20]]
+              precision    recall  f1-score   support
+
+       cegla      1.000     1.000     1.000        19
+       trawa      1.000     1.000     1.000        19
+        zwir      1.000     1.000     1.000        20
+
+    accuracy                          1.000        58
+   macro avg      1.000     1.000     1.000        58
+weighted avg      1.000     1.000     1.000        58
+
+poziomy jasności 32: CV5 = 0.9949 ± 0.0103
+poziomy jasności 64: CV5 = 0.9949 ± 0.0103
+Gotowe.

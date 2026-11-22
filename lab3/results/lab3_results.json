@@ -1,0 +1,99 @@
+{
+  "n_samples": 192,
+  "n_features": 72,
+  "classes": [
+    "cegla",
+    "trawa",
+    "zwir"
+  ],
+  "n_train": 134,
+  "n_test": 58,
+  "seed": 42,
+  "models": {
+    "SVM (RBF) + standaryzacja": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "cv5_mean": 0.9949,
+      "cv5_std": 0.0103
+    },
+    "SVM (liniowy) + standaryzacja": {
+      "train_accuracy": 1.0,
+      "test_accuracy": 1.0,
+      "cv5_mean": 0.9896,
+      "cv5_std": 0.0127
+    },
+    "k-NN (k=5) + standaryzacja": {
+      "train_accuracy": 0.9701,
+      "test_accuracy": 1.0,
+      "cv5_mean": 0.9792,
+      "cv5_std": 0.0104
+    },
+    "SVM (RBF) bez standaryzacji": {
+      "train_accuracy": 0.9776,
+      "test_accuracy": 1.0,
+      "cv5_mean": 0.9794,
+      "cv5_std": 0.0192
+    }
+  },
+  "main_model": "SVM (RBF) + standaryzacja",
+  "confusion_matrix": [
+    [
+      19,
+      0,
+      0
+    ],
+    [
+      0,
+      19,
+      0
+    ],
+    [
+      0,
+      0,
+      20
+    ]
+  ],
+  "report": {
+    "cegla": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    },
+    "trawa": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 19.0
+    },
+    "zwir": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 58.0
+    }
+  },
+  "levels_comparison": {
+    "32": {
+      "cv5_mean": 0.9949,
+      "cv5_std": 0.0103
+    },
+    "64": {
+      "cv5_mean": 0.9949,
+      "cv5_std": 0.0103
+    }
+  }
+}

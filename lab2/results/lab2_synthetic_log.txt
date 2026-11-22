@@ -1,0 +1,22 @@
+Wczytano 16000 punktów z scene_3_surfaces.xyz, kształt (16000, 3)
+Środki klastrów:
+[[ 2.005e+01 -0.000e+00  4.950e+00]
+ [ 9.990e+00  2.001e+01  5.050e+00]
+ [-4.000e-02 -1.000e-02  0.000e+00]]
+Czystość podziału k-średnich: 1.0000
+
+Klaster 0: 5000 pkt, wektor normalny = [1.e-04 1.e+00 0.e+00], d = -0.0015
+   inliery: 4942 (98.8%), średnia odległość od płaszczyzny: 0.0157 m
+   -> PŁASZCZYZNA, pionowa   (rzeczywista powierzchnia: pionowa)
+
+Klaster 1: 6000 pkt, wektor normalny = [0.0445 0.999  0.0012], d = -23.4071
+   inliery: 437 (7.3%), średnia odległość od płaszczyzny: 2.9646 m
+   -> NIE jest płaszczyzną   (rzeczywista powierzchnia: walec)
+
+Klaster 2: 5000 pkt, wektor normalny = [-0.e+00 -1.e-04  1.e+00], d = -0.0006
+   inliery: 4940 (98.8%), średnia odległość od płaszczyzny: 0.0162 m
+   -> PŁASZCZYZNA, pozioma   (rzeczywista powierzchnia: pozioma)
+
+pyransac3d – porównanie normalnych: [{"cluster": 0, "pyransac3d_normal": [0.0001, -1.0, -0.0], "pyransac3d_inliers": 4944, "angle_between_normals_deg": 0.013}, {"cluster": 1, "pyransac3d_normal": [0.0218, -0.9998, 0.0013], "pyransac3d_inliers": 417, "angle_between_normals_deg": 3.81}, {"cluster": 2, "pyransac3d_normal": [0.0005, 0.0006, -1.0], "pyransac3d_inliers": 4935, "angle_between_normals_deg": 0.041}]
+pyransac3d Cylinder: {'center': [9.994, 20.027, 6.688], 'axis': [0.0118, 0.0014, -0.9999], 'radius': 3.0098, 'n_inliers': 4645, 'n_points': 6000}
+Zapisano wyniki i rysunki.

@@ -1,0 +1,23 @@
+Wczytano 1136617 punktów w 4.3 s; zakres X -20.54..-15.21, Y 36.80..41.28, Z 0.02..3.21
+
+ k   punkty      %                   normalna  kąt do Z     RMS  typ
+ 1   205105  18.05      [-0.004, 0.0043, 1.0]     0.34°  0.0079  sufit  [4.0 s]
+ 2   180807  15.91      [-0.0027, 0.006, 1.0]     0.38°  0.0064  podłoga  [3.1 s]
+ 3   133928  11.78   [0.0024, 0.9999, 0.0115]    89.34°  0.0089  ściana Y = 36.83 m  [2.46 s]
+ 4   118077  10.39 [-0.0031, -0.9998, 0.0202]    88.84°  0.0088  ściana Y = 41.23 m  [2.17 s]
+ 5    84706   7.45   [0.9996, 0.0039, 0.0263]    88.49°  0.0088  ściana X = -20.50 m  [1.83 s]
+ 6    46924   4.13    [-0.9996, -0.0, 0.0271]    88.45°  0.0063  ściana X = -15.77 m  [1.53 s]
+Łącznie punktów płaszczyznowych: 769547 (67.7%), pozostało 367070 (32.3%)
+Wymiary z płaszczyzn: {'wysokosc_m': 3.109, 'odleglosc_scian_X_m': 4.727, 'odleglosc_scian_Y_m': 4.397, 'bbox_chmury_m': [5.335, 4.481, 3.186]}
+pyransac3d k=1: inliery 185534 (własny: 205105), kąt między normalnymi 0.087°, odl. środka ciężkości 4.7 mm
+pyransac3d k=2: inliery 178901 (własny: 180807), kąt między normalnymi 0.000°, odl. środka ciężkości 3.8 mm
+pyransac3d k=3: inliery 116478 (własny: 133928), kąt między normalnymi 0.677°, odl. środka ciężkości 2.4 mm
+pyransac3d k=4: inliery 101167 (własny: 118077), kąt między normalnymi 0.438°, odl. środka ciężkości 11.6 mm
+pyransac3d k=5: inliery 78674 (własny: 84706), kąt między normalnymi 1.136°, odl. środka ciężkości 1.0 mm
+pyransac3d k=6: inliery 48117 (własny: 46924), kąt między normalnymi 0.590°, odl. środka ciężkości 4.1 mm
+próg 0.01 m -> [152589, 158103, 85535, 79986, 57017, 58014], wyodrębniono 52.0%
+próg 0.02 m -> [205105, 180807, 133928, 118077, 84706, 46924], wyodrębniono 67.7%
+próg 0.03 m -> [210835, 190442, 138957, 140456, 100611, 62735], wyodrębniono 74.3%
+próg 0.05 m -> [217291, 197476, 141915, 141668, 101931, 65872], wyodrębniono 76.2%
+Gotowe w 96 s. Rysunki: python lab2_s3dis_figures.py
+Zapisano rysunki w /home/claude/pwoi/lab2/figures
